@@ -1,0 +1,72 @@
+/* For header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: black;
+   color: white;
+   padding: 30px;
+}
+.subheader{
+    display:flex ;
+    gap: 10px;
+    color: aliceblue;
+}
+.subheader a{
+    color: grey;
+    text-decoration: none;
+}
+.subheader a:hover{
+    color: white;
+}
+/* for input */
+input{
+    width: 70%;
+    padding: 10px;
+}
+.searchbar {
+    text-align: center;
+    padding: 30px;
+}
+
+/* for image */
+.box{
+    border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+}
+img{
+    width: 220px;
+}
+.box:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+.products{
+    text-align: center;
+    padding: 30px;
+    gap: 50px;
+}
+/* for contactus */
+.center-header{
+    text-align: center;
+}
+.center-para{
+    padding: 20px;
+    font-size: larger;
+}
+
+/* for footer */
+.footer{
+    background-color: black;
+    color: white;
+}
+.contact{
+    text-align: center;
+    padding: 5px;
+}
+.contact-para{
+    padding: 10px;
+}
